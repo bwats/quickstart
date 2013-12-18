@@ -158,6 +158,7 @@ get "#{source_url}/config/config.yml",                                        'c
 get "#{source_url}/config/initializers/load_config.rb",                       'config/initializers/load_config.rb'
 get "#{source_url}/app/controllers/application_controller.rb",                'app/controllers/application_controller.rb'
 get "#{source_url}/app/views/layouts/application.html.erb",                   'app/views/layouts/application.html.erb'
+get "#{source_url}/app/views/home/index.html.erb",                            'app/views/home/index.html.erb'
 get "#{source_url}/db/seeds.rb",                                              'db/seeds.rb'
 get "#{source_url}/custom_plan.rb",                                           'custom_plan.rb'
 get "#{source_url}/zeus.json",                                                'zeus.json'
